@@ -61,3 +61,7 @@ Given the large number of specific job titles in the dataset, the same strategy 
 | org               | role_original | Department                 | Related Job Titles             |
 | ----------------- | ------------- | -------------------------- | ------------------------------ |
 | "Bank of America" | "Intern"      | "Bank of America - Intern" | "Associate", "Intern", "Agent" |
+
+## Final Thoughts
+
+Clearly, my categorization and classfier approach leaves much room for improvement, such as considering more edge cases or separating _"Corporate"_ roles to more specific departments, for example. However, this method provides a decent base for grouping job listings in various financial firms based on similar services or role.
