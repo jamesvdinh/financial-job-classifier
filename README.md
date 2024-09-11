@@ -30,6 +30,10 @@ The firms in this dataset also included traditionally non-financial positions, s
 
 A general classifier function for this dataset would theoretically be able to group job titles based on if the key value in the `job-categories.json` file was included anywhere within the job title. So, for example, a _"Financial Representative Intern"_ would be grouped under _"Specialist - Financials"_ since _"Financial Representative"_ was included in the job title.
 
+In `classfier.py`, I implemented a simple 'Classifier' class with a `classify_into_groups` method which takes in data (input col and output), and returns the data with the added `category` column. An example output is shown below:
+
+![classifier.py output][./img/classifier_output.png]
+
 ### Potential issues
 
 As stated before in (1)("Edge Cases"), the classfier may run into issues with grouping _"General"_ roles with specific departments. Thus, my solution to this issue would be to assign each _"General"_ role with `<org> - <job title>` (i.e. an _"Intern"_ at _"Bank of America"_ would be classified as _"Bank of America - Intern"_). This is done to differentiate between _"General"_ roles between firms, since different firms may label these roles differently from each other.
