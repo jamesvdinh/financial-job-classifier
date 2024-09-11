@@ -1,0 +1,84 @@
+{
+  "General": ["Associate", "Intern"],
+  "Banker": [
+    "Banker",
+    "Personal Banker",
+    "Relationship Banker",
+    "Universal Banker",
+    "Retail Banker"
+  ],
+  "Customer Service": [
+    "Teller",
+    "Senior Teller",
+    "Customer Service Representative",
+    "Customer Care Professional",
+    "Customer Service Executive"
+  ],
+  "Accountant": ["Financial Accountant", "Fund Accountant"],
+  "Financial Agent": [
+    "Agent",
+    "Specialist",
+    "Financial Representative",
+    "Financial Services Representative",
+    "Financial Services Professional",
+    "Licensed Agent",
+    "Account Manager"
+  ],
+  "Insurance Agent": ["Insurance Agent", "Claims Adjustor"],
+  "Investment Banking": [
+    "Investment Banking Analyst",
+    "Investment Banking Summer Analyst"
+  ],
+  "Loan Agent": [
+    "Home Mortgage Consultant",
+    "Mortgage Consultant",
+    "Loan Officer",
+    "Credit Manager"
+  ],
+  "Advisor": [
+    "Advisor",
+    "Analyst",
+    "Senior Analyst",
+    "Summer Analyst",
+    "Banking Advisor",
+    "Business Analyst",
+    "Benefits Consultant",
+    "Wealth Manager",
+    "Wealth Management Intern",
+    "Risk Consulant"
+  ],
+  "Manager": [
+    "Manager",
+    "Branch Manager",
+    "Assistant Manager",
+    "Management Trainee",
+    "Banking Center Manager",
+    "Financial Center Manager",
+    "Agency Owner",
+    "Deputy Manager",
+    "Shift Supervisor",
+    "Management Associate"
+  ],
+  "Corporate": [
+    "Vice President",
+    "Assistant Vice President",
+    "Senior Vice President",
+    "Executive Director",
+    "Director",
+    "Managing Director",
+    "Shift Supervisor"
+  ],
+  "Sales": ["Sales Associate"],
+  "Tech": [
+    "Software Engineer",
+    "Senior Software Engineer",
+    "IT Analyst",
+    "Project Manager",
+    "System Engineer",
+    "Programmer Analyst",
+    "Technology Analyst",
+    "Technology Lead"
+  ],
+  "Food Service": ["Barista"],
+  "Status": ["Retired"]
+}
