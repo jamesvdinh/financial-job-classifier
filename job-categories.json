@@ -1,6 +1,6 @@
 {
-  "General": ["Associate", "Intern"],
-  "Banker": [
+  "General": ["Associate", "Intern", "Agent"],
+  "Banking": [
     "Banker",
     "Personal Banker",
     "Relationship Banker",
@@ -15,8 +15,7 @@
     "Customer Service Executive"
   ],
   "Accountant": ["Financial Accountant", "Fund Accountant"],
-  "Financial Agent": [
-    "Agent",
+  "Specialist - Financials": [
     "Specialist",
     "Financial Representative",
     "Financial Services Representative",
@@ -24,16 +23,20 @@
     "Licensed Agent",
     "Account Manager"
   ],
-  "Insurance Agent": ["Insurance Agent", "Claims Adjustor"],
-  "Investment Banking": [
+  "Specialist - Insurance": ["Insurance Agent", "Claims Adjustor"],
+  "Specialist - Investment Banking": [
     "Investment Banking Analyst",
     "Investment Banking Summer Analyst"
   ],
-  "Loan Agent": [
+  "Specialist - Loans & Credit": [
     "Home Mortgage Consultant",
     "Mortgage Consultant",
     "Loan Officer",
     "Credit Manager"
+  ],
+  "Specialist - Wealth Management" : [
+    "Wealth Manager",
+    "Wealth Management Intern"
   ],
   "Advisor": [
     "Advisor",
@@ -43,8 +46,6 @@
     "Banking Advisor",
     "Business Analyst",
     "Benefits Consultant",
-    "Wealth Manager",
-    "Wealth Management Intern",
     "Risk Consulant"
   ],
   "Manager": [
@@ -54,7 +55,6 @@
     "Management Trainee",
     "Banking Center Manager",
     "Financial Center Manager",
-    "Agency Owner",
     "Deputy Manager",
     "Shift Supervisor",
     "Management Associate"
@@ -66,7 +66,8 @@
     "Executive Director",
     "Director",
     "Managing Director",
-    "Shift Supervisor"
+    "Shift Supervisor",
+    "Agency Owner"
   ],
   "Sales": ["Sales Associate"],
   "Tech": [
@@ -79,6 +80,6 @@
     "Technology Analyst",
     "Technology Lead"
   ],
-  "Food Service": ["Barista"],
+  "Food Services": ["Barista"],
   "Status": ["Retired"]
 }
