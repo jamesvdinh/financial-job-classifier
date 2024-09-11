@@ -30,9 +30,27 @@ The firms in this dataset also included traditionally non-financial positions, s
 
 A general classifier function for this dataset would theoretically be able to group job titles based on if the key value in the `job-categories.json` file was included anywhere within the job title. So, for example, a _"Financial Representative Intern"_ would be grouped under _"Specialist - Financials"_ since _"Financial Representative"_ was included in the job title.
 
-In `classfier.py`, I implemented a simple 'Classifier' class with a `classify_into_groups` method which takes in data (input col and output), and returns the data with the added `category` column. An example output is shown below:
+In `classfier.py`, I implemented a simple 'Classifier' class with a `classify_into_groups` method which takes in data (input col and output), and returns the data with the added `category` column if `role_original` is included in the array for the assiciated category. The `Classifier` class is shown below:
 
-![classifier.py output][./img/classifier_output.png]
+```py
+class Classifier:
+    def __init__(self, dictionary):
+        self._dict = dictionary
+
+    def classify_into_groups(self, data, input_col, output_col_name="Category"):
+        def assign_category(row):
+            for category, titles in self._dict.items():
+                if row[input_col] in titles:
+                    return category
+            return f"{row['org']} - {row[input_col]}"
+
+        data[output_col_name] = data.apply(assign_category, axis=1)
+        return data
+```
+
+An example output is shown below:
+
+![classifier.py output](./img/classifier_output.png)
 
 ### Potential issues
 
