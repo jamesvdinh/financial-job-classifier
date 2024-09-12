@@ -12,11 +12,13 @@ For some firms, there are very general roles such as _"Associate"_, or _"Intern"
 
 In general, I wanted to group job titles by their specific service within the firm, so for bankers, I grouped them under _"Banking"_, and _"Mortgage Consultant"_ positions under _"Specialist - Loans & Credit"_, since a mortgage is a type of loan. Below is a snapshot of these categories:
 
-| Category                          | Job Titles                                                                              |
-| --------------------------------- | --------------------------------------------------------------------------------------- |
-| "Banking"                         | "Banker", "Personal Banker", "Relationship Banker", "Universal Banker", "Retail Banker" |
-| "Specialist - Loans & Credit"     | "Home Mortgage Consultant", "Mortgage Consultant", "Loan Officer", "Credit Manager"     |
-| "Specialist - Investment Banking" | "Investment Banking Analyst", "Investment Banking Summer Analyst"                       |
+| Category                          | Job Titles                                                                                            |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| "Banking"                         | "Banker", "Personal Banker", "Relationship Banker", "Universal Banker", "Retail Banker"               |
+| "Specialist - Loans & Credit"     | "Home Mortgage Consultant", "Mortgage Consultant", "Loan Officer", "Credit Manager"                   |
+| "Specialist - Investment Banking" | "Investment", "Investment Banking", "Investment Banking Analyst", "Investment Banking Summer Analyst" |
+
+For more specific categories, I included keywords for a potential classifier to pickup and assign that department to a job title that has a similar naming scheme to those within its group. For example, _"Specialist - Investment Banking"_ includes _"Investment"_ as a keyword to include titles such as _"Investment Banker Intern"_ or unorthdox naming schemes such as _"Banker Intern - Investment"_.
 
 ### Edge cases
 

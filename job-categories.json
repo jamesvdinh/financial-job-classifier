@@ -7,6 +7,7 @@
     "Retail Banker"
   ],
   "Customer Service": [
+    "Customer Service",
     "Teller",
     "Senior Teller",
     "Customer Service Representative",
@@ -15,15 +16,17 @@
   ],
   "Accountant": ["Financial Accountant", "Fund Accountant"],
   "Specialist - Financials": [
-    "Specialist",
+    "Financials",
     "Financial Representative",
     "Financial Services Representative",
     "Financial Services Professional",
     "Licensed Agent",
     "Account Manager"
   ],
-  "Specialist - Insurance": ["Insurance Agent", "Claims Adjustor"],
+  "Specialist - Insurance": ["Insurance", "Insurance Agent", "Claims Adjustor"],
   "Specialist - Investment Banking": [
+    "Investment Banker",
+    "Investment Banking",
     "Investment Banking Analyst",
     "Investment Banking Summer Analyst"
   ],
@@ -35,7 +38,7 @@
   ],
   "Specialist - Wealth Management" : [
     "Wealth Manager",
-    "Wealth Management Intern"
+    "Wealth Management"
   ],
   "Advisor": [
     "Advisor",
@@ -47,7 +50,7 @@
     "Benefits Consultant",
     "Risk Consulant"
   ],
-  "Manager": [
+  "Managing": [
     "Manager",
     "Branch Manager",
     "Assistant Manager",
@@ -79,6 +82,6 @@
     "Technology Analyst",
     "Technology Lead"
   ],
-  "Food Services": ["Barista"],
+  "Food Services": ["Food Services", "Barista"],
   "Status": ["Retired"]
 }
