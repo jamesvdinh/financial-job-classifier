@@ -4,6 +4,8 @@
 
 ## (1) Job Categorization - Strategy
 
+> Time spent: 4 hrs
+
 From the given dataset, I analyzed patterns with how specific financial firms would label job titles. For example, Bank of America alone has 2483 distinct job titles with niche titles such as _"Compliance Testing Analyst"_ and _"Market Credit Officer"_.
 
 For some firms, there are very general roles such as _"Associate"_, or _"Intern"_, which skew a potential classifier's accuracy in assigning specific departments (i.e. _"Customer Service Intern"_ roles may be mistakenly assigned as general _"Intern"_ roles).
@@ -27,6 +29,8 @@ If a firm listed a general job title as part of their listings, such as _"Associ
 The firms in this dataset also included traditionally non-financial positions, such as _"Software Engineer"_ or _"Barista"_ (from Starbucks), so those titles were grouped in separate categories for _"Tech"_ and _"Food Services"_, respectively.
 
 ## (2) Classifier - Brainstorm
+
+> Time spent: 1.5 hrs
 
 A general classifier function for this dataset would theoretically be able to group job titles based on if the key value in the `job-categories.json` file was included anywhere within the job title. So, for example, a _"Financial Representative Intern"_ would be grouped under _"Specialist - Financials"_ since _"Financial Representative"_ was included in the job title.
 
