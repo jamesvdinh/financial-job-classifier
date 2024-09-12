@@ -62,9 +62,9 @@ As stated before in (1)("Edge Cases"), the classfier may run into issues with gr
 
 Given the large number of specific job titles in the dataset, the same strategy would be applied to specific job titles not found in the `job-categories.json` file, yet the pattern would instead be `<org> - Misc`, indicating a miscellaneous role. Further classifier methods can also be applied to this _"Misc"_ category for more clarity, but in terms of this large dataset, it should be able to assign a department to every job title listed as shown below:
 
-| org               | role_original | Department                 | Related Job Titles             |
-| ----------------- | ------------- | -------------------------- | ------------------------------ |
-| "Bank of America" | "Intern"      | "Bank of America - Intern" | "Associate", "Intern", "Agent" |
+| org               | role_original | Department                 |
+| ----------------- | ------------- | -------------------------- |
+| "Bank of America" | "Intern"      | "Bank of America - Intern" |
 
 ## Final Thoughts
 
