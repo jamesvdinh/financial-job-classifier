@@ -54,7 +54,7 @@ class Classifier:
 
 An example output is shown below:
 
-![classifier.py output](./img/classifier_output.png)
+![classifier.py output](./img/classifier_output1.png)
 
 ### Potential issues
 
